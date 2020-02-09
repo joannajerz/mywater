@@ -21,5 +21,17 @@ console.log(`Hello world!`);
 const water_glass = document.querySelector('.water-glass__number--js')
 water_glass.innerHTML=0;
 
+const button_add=document.querySelector('.water-button__add--js');
+const button_remove=document.querySelector('.water-button_remove--js');
 
 
+button_add.addEventListener('click', (e)=>{
+  e.preventDefault();
+  water_glass.innerHTML=parseInt(water_glass.innerHTML)+1;
+})
+
+button_remove.addEventListener('click', (e)=>{
+  e.preventDefault();
+  if(parseInt(water_glass.innerHTML)>0){
+  water_glass.innerHTML=parseInt(water_glass.innerHTML)-1;
+}})
