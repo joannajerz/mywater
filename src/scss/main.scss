@@ -1,0 +1,73 @@
+@import "_normalize";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $yellow;
+  background:$blue;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.water__image{
+  display: block;
+  width: 280px;
+  height: 280px;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-bottom:48px;
+}
+.water-glass__number{
+  z-index: 2;
+  font-family: 'Roboto';
+  font-size: 112px;
+  color:black;
+  position: absolute;
+  text-align:center;
+  top:0px;
+  width: 100%
+}
+.water__add{
+  margin-bottom: 37px;
+}
+.water-button__add {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 216px;
+  height: 47px;
+  font-family: 'Roboto';
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  padding:11px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.water-button__remove{
+  width: 184px;
+  height: 23px;
+  background:$blue;
+  color: #F5E5E7;
+  border:none;
+}
+.water__add{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.water__remove{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
