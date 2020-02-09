@@ -3,7 +3,7 @@
   "short_name": "MyWater",
   "theme_color": "rgba(13,105,180,0.95)",
   "background_color": "#3767ad",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/my-water/",
   "start_url": "/my-water/",
   "icons": [
