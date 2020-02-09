@@ -1,12 +1,11 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#000000",
-  "background_color": "#000000",
-  "display": "standalone",
-  "orientation": "portrait",
-  "scope": "/wtf-gulp-starter/",
-  "start_url": "/wtf-gulp-starter/",
+  "name": "My water",
+  "short_name": "MyWater",
+  "theme_color": "rgba(13,105,180,0.95)",
+  "background_color": "#3767ad",
+  "display": "browser",
+  "Scope": "/my-water/",
+  "start_url": "/my-water/",
   "icons": [
     {
       "src": "assets/pwa/icons/icon-72x72.png",
