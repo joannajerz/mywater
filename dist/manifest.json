@@ -4,8 +4,8 @@
   "theme_color": "rgba(13,105,180,0.95)",
   "background_color": "#3767ad",
   "display": "standalone",
-  "Scope": "/my-water/",
-  "start_url": "/my-water/",
+  "Scope": "/mywater/",
+  "start_url": "/mywater/",
   "icons": [
     {
       "src": "assets/pwa/icons/icon-72x72.png",
