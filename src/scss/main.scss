@@ -18,7 +18,8 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-.water__image{
+  .water{
+  &__image{
   display: block;
   width: 280px;
   height: 280px;
@@ -26,8 +27,7 @@ body {
   position: relative;
   text-align: center;
   margin-bottom:48px;
-}
-.water-glass__number{
+  } &-glass__number{
   z-index: 2;
   font-family: 'Roboto';
   font-size: 112px;
@@ -36,11 +36,9 @@ body {
   text-align:center;
   top:0px;
   width: 100%
-}
-.water__add{
+  }&__add{
   margin-bottom: 37px;
-}
-.water-button__add {
+  }&-button__add {
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
@@ -53,21 +51,18 @@ body {
   padding:11px;
   margin-right: auto;
   margin-left: auto;
-}
-.water-button__remove{
+  }&-button__remove{
   width: 184px;
   height: 23px;
   background:$blue;
   color: #F5E5E7;
   border:none;
-}
-.water__add{
+}&__add{
   display:flex;
   align-items: center;
   justify-content: center;
-}
-.water__remove{
+}&__remove{
   display:flex;
   align-items: center;
   justify-content: center;
-}
+}}
