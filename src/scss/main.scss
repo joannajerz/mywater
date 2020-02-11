@@ -51,6 +51,11 @@ body {
   padding:11px;
   margin-right: auto;
   margin-left: auto;
+  transition: background .5s linear;
+  transition: color .2s linear;
+  &:hover{
+    background: #E4F1FE;
+  }
   }&-button__remove{
   width: 184px;
   height: 23px;

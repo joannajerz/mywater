@@ -365,7 +365,15 @@ body {
   color: #000000;
   padding: 11px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  -webkit-transition: background .5s linear;
+  -o-transition: background .5s linear;
+  transition: background .5s linear;
+  -webkit-transition: color .2s linear;
+  -o-transition: color .2s linear;
+  transition: color .2s linear; }
+  .water-button__add:hover {
+    background: #E4F1FE; }
 
 .water-button__remove {
   width: 184px;
